@@ -7,7 +7,7 @@
   "repository": "kevinvanleer/kvl-ui",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
-  "source": "src/index.js",
+  "source": "lib/index.js",
   "engines": {
     "node": ">=10"
   },
