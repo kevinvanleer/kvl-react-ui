@@ -1,6 +1,6 @@
 {
   "name": "kvl-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React UI components",
   "author": "kevinvanleer",
   "license": "MIT",
@@ -26,6 +26,7 @@
     "build-storybook": "build-storybook"
   },
   "peerDependencies": {
+    "lodash": "^4.17.19",
     "react": "^16.0.0",
     "styled-components": "^5.1.1"
   },
@@ -58,5 +59,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "color": "^3.1.2"
+  }
 }
