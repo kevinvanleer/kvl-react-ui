@@ -20,6 +20,7 @@
     "test:lint": "eslint ./src",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
+    "lint:css": "stylelint './src/**/*.js'",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && yarn install && yarn run build",
