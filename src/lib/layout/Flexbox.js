@@ -44,9 +44,11 @@ const Flexbox = styled.div.attrs({ className: 'kvl-flexbox' })`
 
   ${({ disabled }) => disabled && `pointer-events: none; opacity: 0.3;`}
   ${({ marginBetween, flexDirection }) =>
-    marginBetween && flexDirection === 'column'
-      ? `& > *:not(:first-child) { margin-top: ${marginBetween}; }`
-      : `& > *:not(:first-child) { margin-left: ${marginBetween}; }`}
+    marginBetween
+      ? flexDirection === 'column'
+        ? `& > *:not(:first-child) { margin-top: ${marginBetween}; }`
+        : `& > *:not(:first-child) { margin-left: ${marginBetween}; }`
+      : null}
   ${({ flexWrap, wrapMargin }) =>
     flexWrap === 'wrap' && wrapMargin
       ? `margin: -${wrapMargin}; & > * { margin: ${wrapMargin}; flex-basis: 0; flex-grow: 1 }`
