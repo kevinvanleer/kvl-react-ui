@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Flexbox = styled.div.attrs({ className: 'kvl-flexbox' })`
+export const Flexbox = styled.div.attrs({ className: 'kvl-flexbox' })`
   display: ${(props) => (props.inline ? 'inline-flex' : 'flex')};
   flex: ${(props) => props.flex};
   flex-flow: ${(props) => props.flexFlow};
@@ -54,5 +54,3 @@ const Flexbox = styled.div.attrs({ className: 'kvl-flexbox' })`
       ? `margin: -${wrapMargin}; & > * { margin: ${wrapMargin}; flex-basis: 0; flex-grow: 1 }`
       : null}
 `
-
-export { Flexbox }

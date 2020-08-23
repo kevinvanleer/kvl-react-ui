@@ -17,7 +17,13 @@ const Box = styled.div`
   max-width: 1em;
   border: 0.1em solid #0f0;
 `
-export const Default = () => <Flexbox />
+export const Default = () => (
+  <Flexbox>
+    {Array.from(Array(16).keys()).map((key) => (
+      <Box key={key} />
+    ))}
+  </Flexbox>
+)
 export const Row = () => (
   <Flexbox flexDirection='row'>
     {Array.from(Array(4).keys()).map((key) => (
