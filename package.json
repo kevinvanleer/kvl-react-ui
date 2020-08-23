@@ -5,6 +5,7 @@
   "author": "kevinvanleer",
   "license": "MIT",
   "repository": "kevinvanleer/kvl-react-ui",
+  "homepage": "http://www.kevinvanleer.com/kvl-react-ui/",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -26,7 +27,7 @@
     "predeploy": "yarn install && yarn version && build-storybook",
     "deploy": "gh-pages -d storybook-static",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook --docs"
   },
   "peerDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",

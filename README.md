@@ -1,30 +1,17 @@
 # kvl-react-ui
 
-> React UI components
+## Installation
 
-[![NPM](https://img.shields.io/npm/v/kvl-react-ui.svg)](https://www.npmjs.com/package/kvl-react-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[View package at NPM](https://www.npmjs.com/package/kvl-react-ui)
 
-## Install
-
-```bash
-npm install --save kvl-react-ui
+```
+npm i kvl-react-ui
 ```
 
-## Usage
-
-```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'kvl-react-ui'
-import 'kvl-react-ui/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+```
+yarn install kvl-react-ui
 ```
 
-## License
+## Documentation
 
-MIT © [kevinvanleer](https://github.com/kevinvanleer)
+[Preview components and API](http://www.kevinvanleer.com/kvl-react-ui/)
