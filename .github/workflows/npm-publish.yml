@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://registry.npm.org/
+          registry-url: https://registry.npmjs.org/
       - run: yarn install
       - run: yarn publish
         env:
