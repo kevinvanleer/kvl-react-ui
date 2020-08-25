@@ -1,5 +1,5 @@
 import React from 'react'
-import { Popup } from './Popup.js'
+import { Popup } from '.'
 import styled from 'styled-components'
 
 export default {
