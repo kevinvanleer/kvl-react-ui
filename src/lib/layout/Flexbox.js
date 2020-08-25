@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 export const Flexbox = styled.div.attrs({ className: 'kvl-flexbox' })`
   display: ${(props) => (props.inline ? 'inline-flex' : 'flex')};
@@ -54,3 +55,7 @@ export const Flexbox = styled.div.attrs({ className: 'kvl-flexbox' })`
       ? `margin: -${wrapMargin}; & > * { margin: ${wrapMargin}; flex-basis: 0; flex-grow: 1 }`
       : null}
 `
+
+Flexbox.propTypes = {
+  display: PropTypes.string
+}
