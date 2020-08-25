@@ -24,7 +24,7 @@
     "lint:css": "stylelint './src/**/*.js'",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "yarn install && yarn version && build-storybook --docs",
+    "predeploy": "yarn install && yarn version && build-storybook --docs && git push --tags",
     "deploy": "gh-pages -d storybook-static",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook --docs"

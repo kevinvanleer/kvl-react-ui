@@ -5,6 +5,7 @@
 node_modules
 
 # builds
+storybook-static
 build
 dist
 .rpt2_cache
@@ -22,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .*.sw*
+
+lib-all
+lib
+.npmrc
+*.tgz
