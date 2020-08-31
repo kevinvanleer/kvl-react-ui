@@ -24,7 +24,7 @@ yarn-error.log*
 
 .*.sw*
 
-lib-all
-lib
+/lib-all
+/lib
 .npmrc
 *.tgz
