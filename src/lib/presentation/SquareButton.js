@@ -25,8 +25,6 @@ export const SquareButton = styled(({ className, children, ...props }) => (
   text-align: center;
   min-height: 2em;
   min-width: 2em;
-  height: 0;
-  width: 0;
 
   background-color: ${(props) =>
     Color(
